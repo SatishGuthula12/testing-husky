@@ -1,5 +1,5 @@
 {
-  "name": "testing-git-hooks",
+  "name": "testing-husky",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +12,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "npm run prepare && react-scripts start",
+    "start": "npm install && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
